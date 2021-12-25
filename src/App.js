@@ -1,25 +1,10 @@
 import './App.css';
+import { NavBar } from './components/NavBar'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <p>
-          Navigation_Main_Home_Link:
-        </p>
-        <p>
-          Daniel's Section
-        </p>
-        <p>
-          Alla FE ONLY
-        </p>
-        <p>
-          Icons
-        </p>
-        <p>
-          Integrated Resume Download from server
-        </p>
-      </header>
+      <NavBar/>
       <body className="App-body">
        <p>
          A simple react app by Daniel and Alla
