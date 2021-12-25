@@ -1,3 +1,28 @@
+MSG TO ALLA (developer)
+
+// github:
+// master:
+//1 commit => 2 commits
+
+
+// locally
+//1 commit => my changes
+
+//1 commit => shelf (stash) my changes for later
+
+//pull from githun
+
+//1 commit => 2 commits  #STOP make a new branch
+
+//unshelve my changes and resolve any CONFLICTS
+
+//1 commit => 2 commits => my changes
+
+//branch, first real component
+// commit => 2 commits => 3commit
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
