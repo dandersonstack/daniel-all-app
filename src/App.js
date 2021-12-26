@@ -1,5 +1,6 @@
 import './App.css';
 import { NavBar } from './components/NavBar'
+import CountClicks from "./components/button"
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
        <p>
          A simple react app by Daniel and Alla
        </p>
+       <CountClicks/>
       </body>
     </div>
   );
