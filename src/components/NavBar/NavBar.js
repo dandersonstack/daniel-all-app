@@ -1,3 +1,4 @@
+import { Link } from 'react-router-dom'
 
 const NavBar = () => {
   return (
@@ -5,18 +6,10 @@ const NavBar = () => {
         <p>
           Navigation_Main_Home_Link:
         </p>
-        <p>
-          Daniel's Section
-        </p>
-        <p>
-          Alla FE ONLY
-        </p>
-        <p>
-          Icons
-        </p>
-        <p>
-          Integrated Resume Download from server
-        </p>
+        <Link className="nav-bar-link" to="/daniels">Daniel's Section</Link>
+        <Link className="nav-bar-link" to="/alla">Alla FE ONLY</Link>
+        <Link className="nav-bar-link" to="/icons">Icon</Link>
+        <Link className="nav-bar-link" to="/github">GithubLink (should be external)</Link>
       </header>
   )
 }
