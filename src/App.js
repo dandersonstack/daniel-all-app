@@ -1,13 +1,14 @@
 import './App.css';
 import { NavBar } from './components/NavBar'
-import ClicksCounter from "./components/ClicksCounter"
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
       <body className="App-body">
-        <ClicksCounter/>
+        <div class = "desing">
+          fuck my brain!
+        </div>
        <p>
          A simple react app by Daniel and Alla
        </p>
