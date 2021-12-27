@@ -9,9 +9,15 @@
   flex-direction: row;
   align-items: center;
   color: white;
+
+}
+
+.nav-bar-link {
+  color: white;
+  padding-left: 22px
 }
 .App-header, p {
-  padding-left: 22px
+
 }
 
 .App-link {
