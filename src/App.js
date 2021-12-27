@@ -1,19 +1,16 @@
 import './App.css';
 import { NavBar } from './components/NavBar'
-import CountClicks from "./components/button"
+import ClicksCounter from "./components/ClicksCounter"
 
 function App() {
   return (
     <div className="App">
       <NavBar/>
       <body className="App-body">
-        <div class = "desing">
-          fuck my brain!
-        </div>
+        <ClicksCounter/>
        <p>
          A simple react app by Daniel and Alla
        </p>
-       <CountClicks/>
       </body>
     </div>
   );
